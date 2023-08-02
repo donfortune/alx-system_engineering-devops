@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd 
 get_current_directory=$(pwd)
 
 echo "your current directory is : $get_current_directory"
