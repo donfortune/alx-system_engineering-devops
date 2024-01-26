@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Bash script that displays the PID
+
+pgrep -a bash | awk '{print $1, $2}'
