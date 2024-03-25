@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+
+# connecting to ssh
 server=8.8.8.8
 
 ssh -i ~/.ssh/school/idrsa ubuntu@$server
